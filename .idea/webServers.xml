@@ -9,7 +9,7 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
-      <webServer id="e16e15e4-3c70-48d3-b6bd-4eb215a62ea7" name="Lokal" url="http://localhost">
+      <webServer id="e16e15e4-3c70-48d3-b6bd-4eb215a62ea7" name="Lokal" url="http://localhost/WEGruppe05">
         <fileTransfer mountedRoot="C:\xampp\htdocs" accessType="MOUNT" port="0" />
       </webServer>
     </option>
