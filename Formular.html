@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Bootstrap Formular</title>
+</head>
+<body>
+
+<div class="container mt-5">
+    <form>
+        <!-- Eingabefeld vom Typ Text für die Spaltenbezeichnung -->
+        <div class="form-group">
+            <label for="spaltenbezeichnung">Spaltenbezeichnung:</label>
+            <input type="text" class="form-control" id="spaltenbezeichnung" placeholder="Spaltenbezeichnung eingeben">
+        </div>
+
+        <!-- Mehrzeiliges Eingabefeld (Textarea) für die Spaltenbeschreibung -->
+        <div class="form-group">
+            <label for="spaltenbeschreibung">Spaltenbeschreibung:</label>
+            <textarea class="form-control" id="spaltenbeschreibung" rows="3" placeholder="Spaltenbeschreibung eingeben"></textarea>
+        </div>
+
+        <!-- Eingabefeld vom Typ Text für die Sortid -->
+        <div class="form-group">
+            <label for="sortid">Sortid:</label>
+            <input type="text" class="form-control" id="sortid" placeholder="Sortid eingeben">
+        </div>
+
+        <!-- Dropdown-Liste mit definierten Optionen -->
+        <div class="form-group">
+            <label for="options">Optionen:</label>
+            <select class="form-control" id="options">
+                <option>Option 1</option>
+                <option>Option 2</option>
+                <option>Option 3</option>
+            </select>
+        </div>
+
+        <!-- Buttons zum Speichern und Abbrechen des Formulars -->
+        <button type="submit" class="btn btn-primary">Speichern</button>
+        <button type="button" class="btn btn-secondary">Abbrechen</button>
+    </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
