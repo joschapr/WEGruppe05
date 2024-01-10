@@ -15,4 +15,9 @@ class Gruppennummer extends BaseController{
 
         return view('templates/Formular');
     }
+    public function Board(): string{
+
+        return view('templates/Board');
+    }
+
 }

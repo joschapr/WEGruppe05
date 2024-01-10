@@ -10,7 +10,7 @@
 <body>
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-        <a class="navbar-brand" href="Startseite.html">
+        <a class="navbar-brand" href="Startseite">
             <img src="trick17.svg" alt="Logo" width="100px" class="align-text-top img-fluid">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,8 +18,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#"style="color: white;">Tasks</a>
-                <a class="nav-link" href="#"style="color: white;">Boards</a>
+                <a class="nav-link" href="#" style="color: white;">Tasks</a>
+                <a class="nav-link" href="Board" style="color: white;">Boards</a>
                 <a class="nav-link" href="Spalten"style="color: white;">Spalten</a>
             </div>
         </div>

@@ -21,49 +21,53 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-link active" aria-current="page" href="#"style="color: white;">Tasks</a>
-                <a class="nav-link" href="#"style="color: white;">Boards</a>
+                <a class="nav-link" href="Board" style="color: white;">Boards</a>
                 <a class="nav-link" href="Spalten"style="color: white;">Spalten</a>
             </div>
         </div>
     </div>
 </nav>
-<div class="container mt-4">
-    <div class="btn-group" role="group" aria-label="Button Container">
-        <a class="btn btn-primary" href="Formular" role="button">Spalte Erstellen</a>
+<div class = "container shadow p-3 mb-5 bg-white rounded">
+    <table class="table">
+        <thead>
+        <tr> <!--das sind die Spalten-->
+            <th scope="col">ID</th>
+            <th scope="col">Board</th>
+            <th scope="col">Sortid</th>
+            <th scope="col">Spalte</th>
+            <th scope="col">Spaltenbeschreibung</th>
+            <th scope="col">Bearbeiten</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr> <!--das sind die Zeilen-->
+            <th scope="row">1</th>
+            <td>Allgemeine Todos</td>
+            <td>100</td>
+            <td>Zu besprechen</td>
+            <td>noch zu besprechde Todos</td>
+            <td><i class="fas fa-pen-square"></i>      <i class="fa-solid fa-trash"></i></td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Allgemeine Todos</td>
+            <td>200</td>
+            <td>In Bearbeitung</td>
+            <td>Todos die aktuell bearbeitet werden</td>
+            <td><i class="fas fa-pen-square"></i>      <i class="fa-solid fa-trash"></i></td>
+        </tr>
+
+        </tbody>
+    </table>
+    <div class="container mt-4">
+        <div class="btn-group" role="group" aria-label="Button Container">
+            <a href="Formular" class="btn btn-secondary">
+                <img src="IconAdd.svg" alt="Spalte Hinzufügen" width="25px" class="align-text-top img-fluid">
+            </a>
+        </div>
     </div>
 </div>
 
-<table class="table">
-    <thead>
-    <tr> <!--das sind die Spalten-->
-        <th scope="col">ID</th>
-        <th scope="col">Board</th>
-        <th scope="col">Sortid</th>
-        <th scope="col">Spalte</th>
-        <th scope="col">Spaltenbeschreibung</th>
-        <th scope="col">Bearbeiten</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr> <!--das sind die Zeilen-->
-        <th scope="row">1</th>
-        <td>Allgemeine Todos</td>
-        <td>100</td>
-        <td>Zu besprechen</td>
-        <td>noch zu besprechde Todos</td>
-        <td><i class="fas fa-pen-square"></i><i class="fa-solid fa-trash"></i></td>
-    </tr>
-    <tr>
-        <th scope="row">2</th>
-        <td>Allgemeine Todos</td>
-        <td>200</td>
-        <td>In Bearbeitung</td>
-        <td>Todos die aktuell bearbeitet werden</td>
-        <td><i class="fas fa-pen-square"></i><i class="fa-solid fa-trash"></i></td>
-    </tr>
-
-    </tbody>
-</table>
 
 
 <footer class ="footer">

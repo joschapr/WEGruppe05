@@ -15,7 +15,7 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
         <a class="navbar-brand" href="Startseite">
-            <img src="trick17.svg" alt="Logo" width="100px" class="align-text-top img-fluid" href="index.html">
+            <img src="trick17.svg" alt="Logo" width="100px" class="align-text-top img-fluid" href="Startseite">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -23,14 +23,14 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-link active" aria-current="page" href="#"style="color: white;">Tasks</a>
-                <a class="nav-link" href="#"style="color: white;">Boards</a>
+                <a class="nav-link" href="Board" style="color: white;">Boards</a>
                 <a class="nav-link active" href="Spalten" style="color: white;">Spalten</a>
             </div>
         </div>
     </div>
 </nav>
 
-<div class="container mt-5">
+<div class = "container shadow p-3 mb-5 bg-white rounded">
     <form>
         <!-- Eingabefeld vom Typ Text für die Spaltenbezeichnung -->
         <div class="form-group">
@@ -61,14 +61,20 @@
             </select>
         </div>
 
+
+
         <!-- Buttons zum Speichern und Abbrechen des Formulars -->
         <button type="submit" class="btn btn-success">Speichern</button>
-        <button type="button" class="btn btn-secondary">Abbrechen</button>
+        <a href="Spalten" class="btn btn-secondary" role="button" aria-pressed="true">Abbrechen</a>
     </form>
 </div>
+
+
+
 <footer class ="footer">
     <p>©Web-Entwicklung Team 2023 Impressum Datenschutz Kontakt</p>
 </footer>
+
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
