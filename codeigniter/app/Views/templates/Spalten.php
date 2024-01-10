@@ -27,8 +27,11 @@
         </div>
     </div>
 </nav>
-
-<a class="btn btn-primary" href="Formular" role="button">Spalte Erstellen</a>
+<div class="container mt-4">
+    <div class="btn-group" role="group" aria-label="Button Container">
+        <a class="btn btn-primary" href="Formular" role="button">Spalte Erstellen</a>
+    </div>
+</div>
 
 <table class="table">
     <thead>
