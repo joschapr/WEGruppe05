@@ -1,32 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Title</title>
-    <script src="https://kit.fontawesome.com/dfaa8d9c47.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-Qqz4lBBa4tD/yCXB1fiu/vAnO+FCo/QElL1d8E1oFI0SvVYxRU7YzXCc+8Sx1/8gVUsVnT6r3a3T0zDl3QIN1A==" crossorigin="anonymous" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="Style.css">
-</head>
-<body>
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="Startseite">
-            <img src="trick17.svg" alt="Logo" width="100px" class="align-text-top img-fluid" href="index.html">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#"style="color: white;">Tasks</a>
-                <a class="nav-link" href="Board" style="color: white;">Boards</a>
-                <a class="nav-link" href="Spalten"style="color: white;">Spalten</a>
-            </div>
-        </div>
-    </div>
-</nav>
+<?= $this->extend("layouts/main")?>
+<?= $this->section('Title')?>
+<title>Spalten</title>
+<?= $this->endSection() ?>
+<?= $this->section('content')?>
+
+
 <div class = "container shadow p-3 mb-5 bg-white rounded">
     <table class="table">
         <thead>
@@ -61,18 +39,11 @@
     </table>
     <div class="container mt-4">
         <div class="btn-group" role="group" aria-label="Button Container">
-            <a href="Formular" class="btn btn-secondary">
-                <img src="IconAdd.svg" alt="Spalte Hinzufügen" width="25px" class="align-text-top img-fluid">
-            </a>
+            <a href="Formular"
+            <button type="button" class="btn btn-success"><img src="IconAdd.svg" style="width: 15px; height: 15px"> Neue Spalte</button>
+             </a>
         </div>
     </div>
 </div>
-
-
-
-<footer class ="footer">
-    <p>©Web-Entwicklung Team 2023 Impressum Datenschutz Kontakt</p>
-</footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
-</html>
+<?= $this->endSection() ?>
