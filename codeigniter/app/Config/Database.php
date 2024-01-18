@@ -27,11 +27,9 @@ class Database extends Config
     public array $default = [
         'DSN'          => '',
         'hostname' => 'localhost',
-        'username' => 'root',
-        'password' => '',
-        'database' => 'we_kanban',
-        //team05
-        //YVDy_team05
+        'username' => 'team05',
+        'password' => 'YVDy_team05',
+        'database' => 'db_team05',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
