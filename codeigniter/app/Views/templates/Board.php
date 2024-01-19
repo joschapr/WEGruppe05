@@ -12,23 +12,58 @@
 
         <div class="col">
             <div class="container">
-                <div class="container  rounded-top shadow bg-body-tertiary text-white ">
-                    <h3>Spaltenname</h3>
+                <div class="container" style="text-align: left">
+                    <h4>Spaltenname</h4>
+
                 </div>
 
-                <div class="card">
+                <div class="card shadow" >
                     <div class="card-body">
-                        <h4 class="card-title">Task Name</h4>
-                        <p class="card-text">Notiz</p>
-                        <p class="card-text">Person</p>
+                        <h5 class="card-title">Taskname</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Person</h6>
+                        <p class="card-text">Beschreibung.</p>
+                        <button type="button" class="btn btn-danger btn-sm"><img src="delete.svg" style="width: 15px; height: 15px"></button>
+                        <button type="button" class="btn btn-secondary btn-sm"><img src="edit.svg" style="width: 15px; height: 15px"></button>
                     </div>
                 </div>
                 <br>
-                <div class="card">
+                <div class="card shadow" >
                     <div class="card-body">
-                        <h4 class="card-title">Task Name</h4>
-                        <p class="card-text">Notiz</p>
-                        <p class="card-text">Person</p>
+                        <h5 class="card-title">Taskname</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Person</h6>
+                        <p class="card-text">Beschreibung.</p>
+                        <button type="button" class="btn btn-danger btn-sm"><img src="delete.svg" style="width: 15px; height: 15px"></button>
+                        <button type="button" class="btn btn-secondary btn-sm"><img src="edit.svg" style="width: 15px; height: 15px"></button>
+                    </div>
+                </div>
+                <br>
+                <button type="button" class="btn btn-outline-secondary btn-sm">Add Task</button>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="container">
+                <div class="container" style="text-align: left">
+                    <h4>Spaltenname</h4>
+                </div>
+
+                <div class="card shadow" >
+                    <div class="card-body">
+                        <h5 class="card-title">Taskname</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Person</h6>
+                        <p class="card-text">Beschreibung.</p>
+                        <button type="button" class="btn btn-danger btn-sm"><img src="delete.svg" style="width: 15px; height: 15px"></button>
+                        <button type="button" class="btn btn-secondary btn-sm"><img src="edit.svg" style="width: 15px; height: 15px"></button>
+                    </div>
+                </div>
+                <br>
+                <div class="card shadow" >
+                    <div class="card-body">
+                        <h5 class="card-title">Taskname</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Person</h6>
+                        <p class="card-text">Beschreibung.</p>
+                        <button type="button" class="btn btn-danger btn-sm"><img src="delete.svg" style="width: 15px; height: 15px"></button>
+                        <button type="button" class="btn btn-secondary btn-sm"><img src="edit.svg" style="width: 15px; height: 15px"></button>
                     </div>
                 </div>
 
@@ -36,23 +71,37 @@
         </div>
         <div class="col">
             <div class="container">
-                <div class="container  rounded-top shadow bg-body-tertiary text-white ">
-                    <h3>Spaltenname</h3>
+                <div class="container" style="text-align: left">
+                    <h4>Spaltenname</h4>
                 </div>
 
-                <div class="card">
+                <div class="card shadow" >
                     <div class="card-body">
-                        <h4 class="card-title">Task Name</h4>
-                        <p class="card-text">Notiz</p>
-                        <p class="card-text">Person</p>
+                        <h5 class="card-title">Taskname</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Person</h6>
+                        <p class="card-text">Beschreibung.</p>
+                        <button type="button" class="btn btn-danger btn-sm"><img src="delete.svg" style="width: 15px; height: 15px"></button>
+                        <button type="button" class="btn btn-secondary btn-sm"><img src="edit.svg" style="width: 15px; height: 15px"></button>
                     </div>
                 </div>
                 <br>
-                <div class="card">
+                <div class="card shadow" >
                     <div class="card-body">
-                        <h4 class="card-title">Task Name</h4>
-                        <p class="card-text">Notiz</p>
-                        <p class="card-text">Person</p>
+                        <h5 class="card-title">Taskname</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Person</h6>
+                        <p class="card-text">Beschreibung.</p>
+                        <button type="button" class="btn btn-danger btn-sm"><img src="delete.svg" style="width: 15px; height: 15px"></button>
+                        <button type="button" class="btn btn-secondary btn-sm"><img src="edit.svg" style="width: 15px; height: 15px"></button>
+                    </div>
+                </div>
+                <br>
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h5 class="card-title">Taskname</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Person</h6>
+                        <p class="card-text">Beschreibung.</p>
+                        <button type="button" class="btn btn-danger btn-sm"><img src="delete.svg" style="width: 15px; height: 15px"></button>
+                        <button type="button" class="btn btn-secondary btn-sm"><img src="edit.svg" style="width: 15px; height: 15px"></button>
                     </div>
                 </div>
 
@@ -60,47 +109,27 @@
         </div>
         <div class="col">
             <div class="container">
-                <div class="container  rounded-top shadow bg-body-tertiary text-white ">
-                    <h3>Spaltenname</h3>
+                <div class="container" style="text-align: left">
+                    <h4>Spaltenname</h4>
                 </div>
 
-                <div class="card">
+                <div class="card shadow">
                     <div class="card-body">
-                        <h4 class="card-title">Task Name</h4>
-                        <p class="card-text">Notiz</p>
-                        <p class="card-text">Person</p>
+                        <h5 class="card-title">Taskname</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Person</h6>
+                        <p class="card-text">Beschreibung.</p>
+                        <button type="button" class="btn btn-danger btn-sm"><img src="delete.svg" style="width: 15px; height: 15px"></button>
+                        <button type="button" class="btn btn-secondary btn-sm"><img src="edit.svg" style="width: 15px; height: 15px"></button>
                     </div>
                 </div>
                 <br>
-                <div class="card">
+                <div class="card shadow">
                     <div class="card-body">
-                        <h4 class="card-title">Task Name</h4>
-                        <p class="card-text">Notiz</p>
-                        <p class="card-text">Person</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <div class="col">
-            <div class="container">
-                <div class="container  rounded-top shadow bg-body-tertiary text-white ">
-                    <h3>Spaltenname</h3>
-                </div>
-
-                <div class="card">
-                    <div class="card-body">
-                        <h4 class="card-title">Task Name</h4>
-                        <p class="card-text">Notiz</p>
-                        <p class="card-text">Person</p>
-                    </div>
-                </div>
-                <br>
-                <div class="card">
-                    <div class="card-body">
-                        <h4 class="card-title">Task Name</h4>
-                        <p class="card-text">Notiz</p>
-                        <p class="card-text">Person</p>
+                        <h5 class="card-title">Taskname</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Person</h6>
+                        <p class="card-text">Beschreibung.</p>
+                        <button type="button" class="btn btn-danger btn-sm"><img src="delete.svg" style="width: 15px; height: 15px"></button>
+                        <button type="button" class="btn btn-secondary btn-sm"><img src="edit.svg" style="width: 15px; height: 15px"></button>
                     </div>
                 </div>
 

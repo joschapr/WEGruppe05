@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-class Gruppennummer extends BaseController{
+class Main extends BaseController{
     public function Startseite(): string{
 
         return view('templates/Startseite');
@@ -18,6 +18,13 @@ class Gruppennummer extends BaseController{
     public function Board(): string{
 
         return view('templates/Board');
+
+
     }
+
+    public function Abc(): string{
+        return view('templates/Abc');
+    }
+
 
 }
