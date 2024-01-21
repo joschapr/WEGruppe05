@@ -7,7 +7,7 @@ class First extends BaseController {
         $db = db_connect();
 
         // Check if the connection is successful
-        if ($db->connect(false))
+        if ($db->connect())
         {
             echo 'Database connection successful!';
         }
@@ -16,6 +16,7 @@ class First extends BaseController {
             echo 'Database connection failed!';
         }
     }
+
     public function table_stat()
     {
         $data['title'] = '$title';

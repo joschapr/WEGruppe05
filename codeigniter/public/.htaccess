@@ -6,6 +6,7 @@ Options -Indexes
 # ----------------------------------------------------------------------
 
 # Turning on the rewrite engine is necessary for the following rules and features.
+# Turning on the rewrite engine is necessary for the following rules and features.
 # FollowSymLinks must be enabled for this to work.
 <IfModule mod_rewrite.c>
 	Options +FollowSymlinks
@@ -38,6 +39,14 @@ Options -Indexes
 	RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 </IfModule>
 
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /WEGruppe05/
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php/$1 [L]
+</IfModule>
+
 <IfModule !mod_rewrite.c>
 	# If we don't have mod_rewrite installed, all 404's
 	# can be sent to index.php, and everything works as normal.
@@ -47,3 +56,6 @@ Options -Indexes
 # Disable server signature start
 	ServerSignature Off
 # Disable server signature end
+
+# set development mode
+SetEnv CI_ENVIRONMENT development
